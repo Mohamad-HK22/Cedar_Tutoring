@@ -60,8 +60,8 @@ Use fictitious customer details for the assignment demo. Logs are created when t
 | OpenAI, short-term memory, tool execution, and final replies | Chat function in the notebook and app |
 | Gradio `ChatInterface` | Final notebook cell and `app.py` |
 | Dependencies and local key configuration | `requirements.txt`, `.env.example`, and your private `.env` |
-| Demonstration video | `demo.mp4`: actual browser interactions; `DEMO_SCRIPT.md` explains the sequence |
-| GitHub repository | Local Git repository is prepared; publish this project to GitHub, excluding `.env` and local logs |
+| Demonstration video | Record your own demonstration using `DEMO_SCRIPT.md` and submit it with the repository link |
+| GitHub repository | Published at https://github.com/Mohamad-HK22/Cedar_Tutoring; private API keys and local logs are excluded |
 
 The handout uses both `summary.txt` and `business_summary.txt`. This project uses `business_summary.txt` to match its folder layout and submission checklist. It uses the current OpenAI Python client method, `client.chat.completions.create`, rather than the older `openai.ChatCompletion` name printed in the handout. See the official [function-calling guide](https://developers.openai.com/api/docs/guides/function-calling) and [GPT-4.1 mini documentation](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
 
@@ -71,7 +71,7 @@ Optional reflection and Hugging Face deployment are outside this simple version.
 
 - Live verification: passed on 18 October 2026. The executed notebook includes actual OpenAI replies for all seven demo messages. All three routes and both tools were exercised.
 - Offline verification: 10 tests passed (`python -m unittest -v test_app.py`); dependency check passed.
-- Demonstration video: `demo.mp4`, a 64-second silent video assembled from screenshots of the actual browser run. All replies and tool traces are real; no responses were scripted.
-- Git repository: initialized locally. GitHub publication is the remaining external submission step; no remote repository has been created.
+- Demonstration video: record your own video following `DEMO_SCRIPT.md`. No video is currently included in the repository.
+- Git repository: published at https://github.com/Mohamad-HK22/Cedar_Tutoring. Submit the repository link with your demonstration video.
 
 The notebook and browser demo have been run. You can reproduce the cases in `DEMO_SCRIPT.md` and inspect the activity accordion and local logs. Submit the GitHub repository link and demonstration video. Check that the repository includes the notebook, app, both business documents, dependency file, README, and demo script, but no API key or real customer details.

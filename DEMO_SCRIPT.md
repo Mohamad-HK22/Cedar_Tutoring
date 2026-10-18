@@ -1,6 +1,6 @@
 # C3 demonstration script
 
-An included `demo.mp4` shows the verified browser run as a 64-second silent video of actual UI screenshots. The script below is available if you want to record a narrated version.
+Use the script below to record your own demonstration of the chatbot.
 
 Aim for about 2–3 minutes. The handout does not require a particular length. Start the app before recording. Show the chat, the “Assignment activity: route and tools” accordion, and the relevant log entries. Use only the fictitious details below and keep `.env` closed.
 
@@ -62,4 +62,4 @@ Say: “The notebook contains the implementation, the requirements file lists th
 
 Before submitting, review the recording for readable responses and traces, confirm all five cases were shown, and ensure no key or real personal information appears. Upload the project to GitHub and submit its link with the video.
 
-These scenarios were verified with the real model on 18 October 2026. The notebook retains the executed demo outputs; the included video shows the browser run. If recording again, use actual replies rather than substituting scripted responses.
+These scenarios were verified with the real model on 18 October 2026. The notebook retains the executed demo outputs. When recording, use actual replies rather than substituting scripted responses.
