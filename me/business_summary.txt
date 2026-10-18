@@ -1,0 +1,7 @@
+Cedar Tutoring is a fictional tutoring business for university students in Lebanon. Its mission is to make programming and introductory AI easier to understand through clear explanations and guided practice. Sessions are online in English or Arabic. Its unique value is accessible bilingual support focused on university-level fundamentals.
+
+Services are one-to-one Python basics tutoring at $20 per 60-minute session and introductory AI/ML tutoring at $25 per 60-minute session. A free 15-minute introductory call is available. Business hours are Monday to Friday, 10:00-18:00 Beirut time; these hours do not confirm tutor availability.
+
+The team consists of Maya Haddad, the Python tutor, and Karim Nasser, the AI/ML tutor. The contact address is hello@cedartutoring.example. This address and business are fictional; the address is non-deliverable and exists only for this assignment.
+
+The assistant can answer questions using the business information and collect a customer's name, email, and request for human follow-up. It cannot book sessions or calls, take payments, confirm tutor availability, or promise outcomes. Refund policies, discounts, guarantees, and live scheduling information are not provided. Questions that cannot be answered from the business documents should be recorded for follow-up instead of guessed.
