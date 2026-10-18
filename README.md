@@ -46,7 +46,7 @@ Both tools have JSON schemas in the app and notebook. The model requests a tool;
 | `record_customer_interest` | `email`: customer email; `name`: customer name; `message`: requested service or follow-up notes | Confirmation that the interest was recorded, or a validation error | `logs/leads.jsonl` |
 | `record_feedback` | `question`: feedback text or an unanswered question | Confirmation that the feedback/question was recorded, or a validation error | `logs/feedback.jsonl` |
 
-Use fictitious customer details for the assignment demo. Logs are created when the tools run and stay on the machine running the app.
+The saved assignment test uses Mohamad Hussein Karnib and myk26@mail.aub.edu, supplied for this submission. The tools save local records only; they do not send email or confirm a booking.
 
 ## Requirement-to-file map
 
@@ -60,7 +60,8 @@ Use fictitious customer details for the assignment demo. Logs are created when t
 | OpenAI, short-term memory, tool execution, and final replies | Chat function in the notebook and app |
 | Gradio `ChatInterface` | Final notebook cell and `app.py` |
 | Dependencies and local key configuration | `requirements.txt`, `.env.example`, and your private `.env` |
-| Demonstration video | Record your own demonstration using `DEMO_SCRIPT.md` and submit it with the repository link |
+| Live test | Section 9 of `business_agent.ipynb` and `TEST_RESULTS.md`, using the supplied name and email |
+| Demonstration video | [Watch the C3 demonstration video](https://drive.google.com/file/d/1Y5NvFx8JSRG0Y0giDFVmKh0Sd0XQqlh8/view?usp=sharing) |
 | GitHub repository | Published at https://github.com/Mohamad-HK22/Cedar_Tutoring; private API keys and local logs are excluded |
 
 The handout uses both `summary.txt` and `business_summary.txt`. This project uses `business_summary.txt` to match its folder layout and submission checklist. It uses the current OpenAI Python client method, `client.chat.completions.create`, rather than the older `openai.ChatCompletion` name printed in the handout. See the official [function-calling guide](https://developers.openai.com/api/docs/guides/function-calling) and [GPT-4.1 mini documentation](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
@@ -69,9 +70,9 @@ Optional reflection and Hugging Face deployment are outside this simple version.
 
 ## Verification and submission
 
-- Live verification: passed on 18 October 2026. The executed notebook includes actual OpenAI replies for all seven demo messages. All three routes and both tools were exercised.
+- Live verification: the executed notebook and `TEST_RESULTS.md` contain the newly run seven-message test using Mohamad Hussein Karnib and myk26@mail.aub.edu, including all three routes and both tools.
 - Offline verification: 10 tests passed (`python -m unittest -v test_app.py`); dependency check passed.
-- Demonstration video: record your own video following `DEMO_SCRIPT.md`. No video is currently included in the repository.
+- Demonstration video: [Watch the C3 demonstration video](https://drive.google.com/file/d/1Y5NvFx8JSRG0Y0giDFVmKh0Sd0XQqlh8/view?usp=sharing). The recording is hosted on Google Drive.
 - Git repository: published at https://github.com/Mohamad-HK22/Cedar_Tutoring. Submit the repository link with your demonstration video.
 
-The notebook and browser demo have been run. You can reproduce the cases in `DEMO_SCRIPT.md` and inspect the activity accordion and local logs. Submit the GitHub repository link and demonstration video. Check that the repository includes the notebook, app, both business documents, dependency file, README, and demo script, but no API key or real customer details.
+Review the current test in notebook section 9 and `TEST_RESULTS.md`; its outputs are actual model replies and tool traces. Submit the GitHub repository link and the linked demonstration video. The repository includes the notebook, app, business documents, dependencies, and test results. Keep the API key and unrelated personal information private.
